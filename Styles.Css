@@ -1,0 +1,108 @@
+.slideshow-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-container::after {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-image: url('Portfolio/Screen1.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    animation: fade 45s infinite;
+}
+
+@keyframes fade {
+    0% { background-image: url('Portfolio/Screen1.png'); }
+    33% { background-image: url('Portfolio/Screen2.png'); }
+    66% { background-image: url('Portfolio/Screen3.png'); }
+    100% { background-image: url('Portfolio/Screen1.png'); }
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.icons a:hover img {
+    opacity: 0.7;
+}
+.content {
+    position: relative;
+    z-index: 1;  /* Ensures the content appears on top */
+    color: black;
+    text-align: center;
+    background-image: url(Portfolio/Options.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: 200px;
+
+    margin: auto;
+    word-wrap: break-word;
+    padding: 150px;
+    max-width: 1200px;
+
+    padding-top: 20%;
+}
+.Backdrop{
+
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 1);
+
+    max-width: 1200px;
+    margin: auto;
+
+}
+.Junk {
+    margin: auto;
+}
+.Junk img {
+    float: left; /* Floats the image to the left */
+    margin-right: 15px; /* Adds space between image and text */
+    width: 300px;
+    height: auto;
+}
+
+.Junk img.right {
+    float: right; /* Floats the image to the right */
+    margin-left: 15px;
+}
+.your-centered-div {
+    width: 580px; 
+    height: auto; 
+    position: relative; 
+    right: 0; 
+    left: 0;
+    margin: auto; 
+}

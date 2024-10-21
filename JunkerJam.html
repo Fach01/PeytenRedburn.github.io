@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles.Css">
+    <title>Text with Background and Foreground Images</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('JunkerJamImages/Background.png'); /* Background image */
+        background-size: cover;
+        background-position: center;
+        color: #fff; /* White text color for contrast */
+        line-height: 1.6;
+    }
+    /* Simple centering for the h1 */
+    h1 {
+    text-align: center; /* Centers the content inside */
+    margin-bottom: 30px;
+    }
+
+    h1 img {
+    max-width: 100%; /* Ensure it doesn’t overflow the container */
+    height: auto;    /* Maintain aspect ratio */
+    display: inline-block; /* Ensure image stays inline and can be centered */
+    }
+    </style>
+</head>
+<body>
+    <div class = "Backdrop">
+        <div class = "your-centered-div">
+            <div class="icons">
+                <a href="Main.Html" title="Main">
+                <img src="Portfolio/home.png" alt="Main">
+                </a>
+            </div>
+            <h1><img src="JunkerJamImages/IMG_2977.png" alt="Foreground Image 1"></h1>
+            
+            
+        </div>
+       
+        <div class="Junk">
+            <p>
+                JunkerJam is a side scroller Dance Dance Revolution style game where the user competes against the computer, the Player and the computer both have abilities to either powerup their own gameplay or hinder their oponent. 
+                This Game was submitted to the Ubisoft 2024 Australian Game Jam and I was the Director, Game Designer, and Co-Programmer for this project. 
+            </p>
+            <p>
+                <img src="JunkerJamImages/Untitled_Artwork.png" alt="Foreground Image 2">
+                As my first project in the rhythm game genre this game challenged my skills as a Director, a Programmer, and as a Designer. There were multiple aspects of the Genre that I simply was not familiar with and underestimated
+                the commitment that it would involve. Leading to additional mechanics being developed that quickly increased the scope beyond what was feasable. 
+            </p>
+            <p>
+                <img src="JunkerJamImages/special_2.png" class="right" alt="Foreground Image 2">
+    
+                Due to a lack of experience in game development as a whole the majority of the abilities appeared as numbers games with a lack a User feedback that left the players In the dark when it came to the results of their actions.
+                Furthermore, the system that measures the success of the player is a limited one, and after further reading and watching several video essays on the innerworkings of Rhythm games as a whole I have learnt of other slightly more complex
+                yet far more gratifying methods of point calculation that would take its place.
+                
+            </p>
+            <p>
+                Due to the expedited nature of learning a new game genre, and first experiences with features like singletons, the programming of the game could do with much improvement. 
+                There was a high usage of coupling and unnecessary singleton usage, which I improved on in later game development projects
+            </p>
+            <p>
+                Some interpersonal conflicts did arrise over the course of the project. Many of which could have been easily avoided with proper project management software and techniques, such as the scrum method, or the use of Trello or Jira to keep track of workflow.
+            </p>
+                
+               while there are certainly things that could use improvement in this project the skills it taught me and the people I worked with were extraordinary and I will forever be grateful for the opportunity to direct this game.
+            </p>
+            
+        </div>
+        <div class="your-centered-div">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yx2HUYd7Bv8?si=8wFI40tHiDYhX0Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>   
+    </div>
+    
+</body>
+</html>
