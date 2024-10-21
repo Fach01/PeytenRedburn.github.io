@@ -29,21 +29,20 @@ html
             content: "";
             background-size: cover;
             background-position: center;
-            background-image: url('image1.jpg');
+            background-image: url('/mnt/data/Screenshot 2024-06-02 183523.png');
             position: absolute;
             top: 0;
             left: 0;
             height: 100%;
             width: 100%;
-            animation: fade 30s infinite;
+            animation: fade 45s infinite;
         }
 
         @keyframes fade {
-            0% { background-image: url('image1.jpg'); }
-            25% { background-image: url('image2.jpg'); }
-            50% { background-image: url('image3.jpg'); }
-            75% { background-image: url('image4.jpg'); }
-            100% { background-image: url('image1.jpg'); }
+            0% { background-image: url('/mnt/data/Screenshot 2024-06-02 183523.png'); }
+            33% { background-image: url('/mnt/data/image.png'); }
+            66% { background-image: url('/mnt/data/image.png'); }
+            100% { background-image: url('/mnt/data/Screenshot 2024-06-02 183523.png'); }
         }
 
         .content {
