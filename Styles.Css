@@ -79,8 +79,8 @@ footer {
 
     padding: 50px;
     background-color: rgba(0, 0, 0, 1);
-
     max-width: 1200px;
+    height: auto;
     margin: auto;
 
 }
