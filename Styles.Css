@@ -84,6 +84,14 @@ footer {
     margin: auto;
 
 }
+.Whitedrop{
+    padding: 50px;
+    background-color: rgb(255, 248, 248, 1);
+
+    max-width: 1200px;
+    margin: auto;
+
+}
 .Junk {
     margin: auto;
 }
